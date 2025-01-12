@@ -8,7 +8,7 @@ const Home = () => {
       <div className="container home__container">
         <header className="home__header">
           <h1>
-            We build <span>products</span> that shape a better future
+            We build <span className="word_deco">products</span> that shape a better future
           </h1>
 
           <p>
@@ -25,7 +25,7 @@ const Home = () => {
         <div className="container client__container">
 
           <h3>
-            Success in <span>Motion</span> - Our Clients&apos; journey
+            {/* Success in <span className="word_deco">Motion</span> - Our Clients&apos; journey */}
           </h3>
 
           
@@ -34,15 +34,28 @@ const Home = () => {
       </section>
 
       <section>
-        <div className="container">
+        <div className="container startup__container">
           <h3>
-            Discover the <span>transformative stories</span> of startups that scaled
+            Discover the <span className="word_deco">transformative stories</span> of startups that scaled
             new heights with us
           </h3>
 
           <>
             <StartUps />
           </>
+        </div>
+      </section>
+
+      <section className="spark">
+        <div className="container spark__container">
+
+          <h3>
+          From <span className="word_deco">Spark</span> to <span className="word_deco">Spotlight:</span> we take you every step of the way to success.
+          </h3>
+          <div className="spark__container-left">
+
+          </div>
+          <div className="spark__container-right"></div>
         </div>
       </section>
 

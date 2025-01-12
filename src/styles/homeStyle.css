@@ -16,11 +16,16 @@
     font-weight: 400;
 }
 
-.home__header h1 > span{
-    color: #B3D0F2 ;
-}
+
 
 
 .home__header p{
     margin: 2.5rem 0 2rem;
+}
+
+
+.client__container h3, .startup__container h3{
+    font-size: 42px;
+    font-weight: 300;
+    text-align: center;
 }

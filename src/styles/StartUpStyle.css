@@ -4,11 +4,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid #0F2645;
+    border-radius: 3rem;
+    margin: 2rem 3rem;
+    overflow: hidden;
+
 }
 button{
     font-family: inherit;
     cursor: pointer;
     background-color: transparent;
+    width: max-content;
+    padding: 1rem 3rem;
+
 }
 
 button:hover{
@@ -18,3 +26,25 @@ button:hover{
     .iwaria{
         width: 4rem;
     }
+
+
+/*==== StartUp Main====*/
+.startup__main{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    background-color: #0F2645;
+    width: 570px;
+    border-radius: 3rem;
+    padding: 1.5rem;
+}
+
+.startup__right{
+    background-color:#152E4F ;
+}
+
+.startup__right img{
+    height: 20rem;
+    width: max-content;
+}
