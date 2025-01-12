@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-import ForcytheLogo from "../assets/images/forcythe logo.svg"
+import ForcytheLogo from "../assets/images/forcythe_logo.svg"
 import CustomButton from "./CustomButton"
 import "../styles/NavbarStyle.css"
 

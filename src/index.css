@@ -28,5 +28,6 @@ body {
   padding: 0.65rem 1rem;
   font-family: inherit;
   font-weight: bold;
+  cursor: pointer;
 }
 

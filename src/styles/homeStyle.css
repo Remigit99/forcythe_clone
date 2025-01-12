@@ -1,0 +1,26 @@
+
+.home__container{
+    padding: 6rem 0 2rem;
+}
+
+.home__header{
+    background-color:#1D1E2E ;
+    padding: 3rem 5rem 2rem 2rem;
+    border-radius: 3rem;
+}
+
+.home__header h1{
+    /* text-align: center; */
+    font-size: 84px;
+    line-height: 88px;
+    font-weight: 400;
+}
+
+.home__header h1 > span{
+    color: #B3D0F2 ;
+}
+
+
+.home__header p{
+    margin: 2.5rem 0 2rem;
+}
