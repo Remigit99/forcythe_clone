@@ -1,0 +1,38 @@
+
+.spark__sec{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top:3rem;
+}
+
+.spark__tabs{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #B3D0F2;
+    padding: 1rem 1.2rem;
+    border-radius: 3rem;
+
+}
+
+.spark__tabs button{
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    background-color: #B3D0F2;
+    padding: 1rem 1.5rem;
+color: black;
+}
+
+.spark__tabs button:hover{
+    background-color: #0F2645; 
+    color: white;
+}
+
+
+
+.spark__sec-right img{
+    width: 25rem;
+    
+}

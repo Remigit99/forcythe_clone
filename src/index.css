@@ -31,6 +31,26 @@ body {
   cursor: pointer;
 }
 
+.subTitle2{
+  font-size: 42px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.subTitle3{
+  font-size: 2rem;
+ margin-bottom: 2rem;
+ font-weight: 300;
+ text-align: center;
+ margin-bottom: 2rem;
+}
+
+.parag3{
+  color: #A29DA6;
+  font-size: 1rem;
+}
+
 .word_deco{
     color: #B3D0F2 ;
 

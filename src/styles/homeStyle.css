@@ -24,8 +24,88 @@
 }
 
 
-.client__container h3, .startup__container h3{
-    font-size: 42px;
-    font-weight: 300;
+
+
+
+
+/*===== Spark ====*/
+.spark{
+margin: 5rem 0;    
+}
+
+.parag3{
+    width: 70%;
+}
+
+
+
+/*==== b2b =====*/
+
+.b2b__items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+
+}
+
+.b2b__item{
+    background-color: #0F2645;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.b2b__icon{
+    background-color: #030516;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    width: max-content;
+
+}
+
+.b2b__item-h{
+    margin: 1.5rem 0 2rem;
+}
+
+
+
+
+/*======== stats=====*/
+
+.stats{
+    margin: 5rem 0;
+}
+
+.stats__container{
     text-align: center;
+}
+
+
+.stats__main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.stat{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.stat h4{
+    color: #A4BFDE;
+}
+
+
+/*===== Blog =======*/
+
+.blog{
+    margin: 5rem 0;
+}
+
+.blog__header{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
 }
