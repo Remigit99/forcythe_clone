@@ -33,7 +33,7 @@ const Home = () => {
             {/* Success in <span className="word_deco">Motion</span> - Our Clients&apos; journey */}
           </h3>
 
-          
+
         </div>
 
       </section>
@@ -55,10 +55,10 @@ const Home = () => {
         <div className="container spark__container">
 
           <h3 className="subTitle2">
-          From <span className="word_deco">Spark</span> to <span className="word_deco">Spotlight:</span> we take you every step of the way to success.
+            From <span className="word_deco">Spark</span> to <span className="word_deco">Spotlight:</span> we take you every step of the way to success.
           </h3>
           <div className="spark__container-left">
-            <Spark/>
+            <Spark />
 
           </div>
           {/* <div className="spark__container-right"></div> */}
@@ -66,108 +66,108 @@ const Home = () => {
       </section>
 
       <section>
-          <div className="container b2b__container">
+        <div className="container b2b__container">
 
-              <h3 className="subTitle2 word_deco">
-              Your best call for B2B/B2C product innovation
-              </h3>
+          <h3 className="subTitle2 word_deco">
+            Your best call for B2B/B2C product innovation
+          </h3>
 
-              <div className="b2b__items">
+          <div className="b2b__items">
 
-                <article className="b2b__item">
-                    <div className="b2b__icon">
-                        <img src={b2bIcon} alt="b2b__icon" />
-                    </div>
-
-                    <div className="b2b__item-h">
-                      <h4>
-                        Experience
-                      </h4>
-                    </div>
-
-                    <div>
-                        <p className="parag3">
-                        Decades of collective wisdom. Leverage our extensive experience 
-                        to avoid common pitfalls and accelerate your business growth.
-                        </p>
-                    </div>
-                </article>
-
-
-                <article className="b2b__item">
-                    <div className="b2b__icon">
-                        <img src={b2bIcon} alt="b2b__icon" />
-                    </div>
-
-                    <div className="b2b__item-h">
-                      <h4>
-                      Quick Support
-                      </h4>
-                    </div>
-
-                    <div>
-                        <p className="parag3">
-We are your reliable partner, always there when you
- need us, ensuring smooth operations at every stage of your growth.
-                        </p>
-                    </div>
-                </article>
-
-
-                <article className="b2b__item">
-                    <div className="b2b__icon">
-                        <img src={b2bIcon} alt="b2b__icon" />
-                    </div>
-
-                    <div className="b2b__item-h">
-                      <h4>
-                      Cost Savings
-                      </h4>
-                    </div>
-
-                    <div>
-                        <p className="parag3">
-Maximising impact, minimising costs efficiency is key. We provide 
-cost-effective solutions without compromising on quality.
-                        </p>
-                    </div>
-                </article>
+            <article className="b2b__item">
+              <div className="b2b__icon">
+                <img src={b2bIcon} alt="b2b__icon" />
               </div>
 
+              <div className="b2b__item-h">
+                <h4>
+                  Experience
+                </h4>
+              </div>
+
+              <div>
+                <p className="parag3">
+                  Decades of collective wisdom. Leverage our extensive experience
+                  to avoid common pitfalls and accelerate your business growth.
+                </p>
+              </div>
+            </article>
+
+
+            <article className="b2b__item">
+              <div className="b2b__icon">
+                <img src={b2bIcon} alt="b2b__icon" />
+              </div>
+
+              <div className="b2b__item-h">
+                <h4>
+                  Quick Support
+                </h4>
+              </div>
+
+              <div>
+                <p className="parag3">
+                  We are your reliable partner, always there when you
+                  need us, ensuring smooth operations at every stage of your growth.
+                </p>
+              </div>
+            </article>
+
+
+            <article className="b2b__item">
+              <div className="b2b__icon">
+                <img src={b2bIcon} alt="b2b__icon" />
+              </div>
+
+              <div className="b2b__item-h">
+                <h4>
+                  Cost Savings
+                </h4>
+              </div>
+
+              <div>
+                <p className="parag3">
+                  Maximising impact, minimising costs efficiency is key. We provide
+                  cost-effective solutions without compromising on quality.
+                </p>
+              </div>
+            </article>
           </div>
+
+        </div>
 
       </section>
 
 
       <section className="stats">
         <div className="container stats__container">
-                <h3 className="subTitle3">
-                We build solutions that help <span className="word_deco">businesses</span> of all sizes to <span className="word_deco">scale</span>
-                </h3>
+          <h3 className="subTitle3">
+            We build solutions that help <span className="word_deco">businesses</span> of all sizes to <span className="word_deco">scale</span>
+          </h3>
 
-                <div className="stats__main">
+          <div className="stats__main">
 
-                  <div className="stat">
-                    <h4> 50+ </h4> 
-                    <p> Clients</p>
-                  </div>
+            <div className="stat">
+              <h4> 50+ </h4>
+              <p> Clients</p>
+            </div>
 
-                  <div className="stat">
-                    <h4> 120+</h4> 
-                    <p> Projects</p>
-                  </div>
+            <div className="stat">
+              <h4> 120+</h4>
+              <p> Projects</p>
+            </div>
 
-                  <div className="stat">
-                    <h4> 10+ </h4> 
-                    <p> Team Leads</p>
-                  </div>
+            <div className="stat">
+              <h4> 10+ </h4>
+              <p> Team Leads</p>
+            </div>
 
-                  <div className="stat">
-                    <h4> 10+ </h4> 
-                    <p>Glorious Years</p>
-                  </div>
+            <div className="stat">
+              <h4> 10+ </h4>
+              <p>Glorious Years</p>
+            </div>
 
-                </div>
+          </div>
         </div>
       </section>
 
@@ -177,58 +177,80 @@ cost-effective solutions without compromising on quality.
 
           <div className="blog__header">
             <h3 className="subTitle2">
-            Read our articles, news and product blog
+              Read our articles, news and product blog
             </h3>
 
-            <CustomButtom title="Book a Call"/>
+            <CustomButtom title="Book a Call" />
           </div>
 
           <div className="blog__main">
 
-            <article className="blog">
+            <article className="blog__articles">
               <div className="blog__img">
-                <img src={cryptoTokens} alt="crypto_tokens" />
+                <img src={aiArt} alt="crypto_tokens" />
               </div>
 
               <div className="blog__content">
-                  <h5> Blog </h5>
+                <h5> Blog </h5>
 
-                  <p>The Reformist May 29th, 2024  </p>
+                <p className="parag3">The Reformist May 29th, 2024  </p>
 
-                  <h3> Will AI take over Art? </h3>
+                <h3> Will AI take over Art? </h3>
               </div>
             </article>
 
-            
-            <article className="blog">
+
+            <article className="blog__articles">
               <div className="blog__img">
                 <img src={cryptoTokens} alt="crypto_assets" />
               </div>
 
               <div className="blog__content">
-                  <h5> Blog </h5>
+                <h5> Blog </h5>
 
-                  <p>The Reformist May 29th, 2024  </p>
+                <p className="parag3">The Reformist May 29th, 2024  </p>
 
-                  <h3> Cryptocurrency vs Tokens </h3>
+                <h3> Cryptocurrency vs Tokens </h3>
               </div>
             </article>
 
-            <article className="blog">
+            <article className="blog__articles">
               <div className="blog__img">
                 <img src={cryptoAssets} alt="crypto_assets" />
               </div>
 
               <div className="blog__content">
-                  <h5> Blog </h5>
+                <h5> Blog </h5>
 
-                  <p>The Reformist May 29th, 2024  </p>
+                <p className="parag3">The Reformist May 29th, 2024  </p>
 
-                  <h3> Cryptocurrency and Crypto assets</h3>
+                <h3> Cryptocurrency and Crypto assets</h3>
               </div>
             </article>
 
 
+          </div>
+        </div>
+
+      </section>
+
+
+      <section className="join">
+        <div className="container join__container">
+          <h2 className="joinTitle word_deco">
+            Ready to Scale?
+          </h2>
+          <h2 style={{ textAlign: "center", fontSize: 42, fontWeight: 500 }}>
+            Join successful brands that chose
+
+          </h2>
+          <h2 className="joinTitle">
+            us as their <span className="word_deco">growth accelerator </span>
+          </h2>
+
+          <div className="btn_join">
+
+            <CustomButtom title="Book a Call" />
           </div>
         </div>
 
