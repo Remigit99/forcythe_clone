@@ -2,6 +2,7 @@ import "../styles/homeStyle.css"
 import CustomButtom from "../component/CustomButton"
 import StartUps from "../component/StartUps"
 import Spark from "../component/Spark"
+import Footer from "../component/Footer"
 import b2bIcon from "../assets/icons/layers-three.svg"
 import aiArt from "../assets/images/ai_art.webp"
 import cryptoTokens from "../assets/images/crypto_tokens.webp"
@@ -255,6 +256,8 @@ const Home = () => {
         </div>
 
       </section>
+
+      <Footer/>
     </main>
   )
 }
