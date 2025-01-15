@@ -1,0 +1,20 @@
+
+
+/* Styling the main odometer container */
+.odometer {
+    font-family: 'Lexend', sans-serif;
+    font-size: 2rem;
+    /* color: #ff5722; */
+    line-height: 1.2;
+}
+
+/* Styling individual digits */
+.odometer .odometer-digit {
+    font-weight: bold;
+    /* color: #4caf50; */
+}
+
+/* Add any other styles you want */
+.odometer .odometer-digit .odometer-value {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}

@@ -59,6 +59,7 @@ const Footer = () => {
 
                   
                 </div>
+                
 
                 <div className="footer__links">
                         <h4>Company</h4>

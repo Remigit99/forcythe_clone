@@ -97,6 +97,15 @@ margin: 5rem 0;
     color: #A4BFDE;
 }
 
+.stat-h{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.stat-h span{
+    font-size: 1.2rem;
+}
 
 /*===== Blog =======*/
 

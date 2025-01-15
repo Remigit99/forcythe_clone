@@ -9,6 +9,7 @@ nav{
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(20px);
+    z-index: 10000;
 }
 
 .nav__container{

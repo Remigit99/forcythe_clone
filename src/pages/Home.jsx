@@ -1,3 +1,4 @@
+// import { useEffect, useState } from "react"
 import "../styles/homeStyle.css"
 import CustomButtom from "../component/CustomButton"
 import StartUps from "../component/StartUps"
@@ -7,8 +8,21 @@ import b2bIcon from "../assets/icons/layers-three.svg"
 import aiArt from "../assets/images/ai_art.webp"
 import cryptoTokens from "../assets/images/crypto_tokens.webp"
 import cryptoAssets from "../assets/images/crypto_asset.webp"
+import SampleOdometer from "../component/SampleOdometer"
+
+// import Odometer from "react-odometerjs"
 
 const Home = () => {
+
+  // const [projectVlue, setProjectValue] = useState(1234)
+
+//   useEffect(() => {
+//     const timeoutId = setTimeout(() => setProjectValue(4321), 2000);
+//     return () => {
+//         clearTimeout(timeoutId);
+//     };
+// }, []);
+
   return (
     <main>
       <div className="container home__container">
@@ -149,22 +163,31 @@ const Home = () => {
           <div className="stats__main">
 
             <div className="stat">
-              <h4> 50+ </h4>
+              <h4>
+            <SampleOdometer num="01" />  +
+              </h4>
               <p> Clients</p>
             </div>
 
+
             <div className="stat">
-              <h4> 120+</h4>
+              <h4> 
+            <SampleOdometer num="021"/>  +
+                </h4>
               <p> Projects</p>
             </div>
 
             <div className="stat">
-              <h4> 10+ </h4>
+              <h4> 
+            <SampleOdometer num="69"/>  +
+              </h4>
               <p> Team Leads</p>
             </div>
 
             <div className="stat">
-              <h4> 10+ </h4>
+              <h4> 
+            <SampleOdometer num="21" />  +
+                 </h4>
               <p>Glorious Years</p>
             </div>
 
