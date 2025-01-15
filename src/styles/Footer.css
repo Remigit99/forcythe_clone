@@ -1,0 +1,83 @@
+
+footer{
+    margin: 4rem 1rem;
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+gap: 4rem;
+}
+
+.sub__box{
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    border: 1px solid white;
+overflow: hidden;
+margin-bottom: 1.5rem;
+}
+
+.sub__box input{
+    background: transparent;
+    height: 100%;
+    width: max-content;
+    color: white;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1.1rem;
+}
+
+.agree{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer__logo{
+    margin-bottom: 1.5rem;
+}
+
+.footer__parag{
+    color: #A29DA6;
+  font-size: 1rem;
+}
+
+.forcythe__social{
+    margin-top: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.forcythe__social span{
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: 1px solid  #60A6E7;
+    width: 3rem;
+    height: 3rem;
+    display: grid;
+    place-item: center;
+   
+
+}
+
+.forcythe__social span svg{
+    align-self: center;
+    font-size: 1.8rem;
+    color:  #60A6E7;
+}
+
+.footer__links h4{
+    margin-bottom: 1.5rem;
+}
+
+.footer_link{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.footer_link a{
+    color:  #60A6E7;
+}

@@ -5,6 +5,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaYoutube } from "react-icons/fa6";
 import { FaPodcast } from "react-icons/fa6";
+import "../styles/Footer.css"
 
 const Footer = () => {
     return (
@@ -29,7 +30,7 @@ const Footer = () => {
                         <img src={Logo} alt="forcythe__logo" />
                     </div>
 
-                    <div className="parag3">
+                    <div className="footer__parag">
                         <p>
                             We are the growth company for businesses looking to scale. We are dedicated to transforming
                             businesses with bespoke digital solutions that drive growth.
@@ -56,7 +57,10 @@ const Footer = () => {
                         </span>
                     </div>
 
-                    <ul className="footer__links">
+                  
+                </div>
+
+                <div className="footer__links">
                         <h4>Company</h4>
 
                         <div className="footer_link">
@@ -71,7 +75,6 @@ const Footer = () => {
 
 
 
-                    </ul>
                 </div>
             </div>
         </footer>
